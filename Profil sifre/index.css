@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  display: inline;
+  margin: 74px;
+  padding: 0;
+  width: 254px;
+  overflow: auto;
+  height: 559px;
+  background-color: #f1f1f1;
+  position: absolute;
+  background: #ffffff;
+  /* sha2 */
+
+  box-shadow: 0px 4px 18px rgba(55, 127, 240, 0.12);
+  border-radius: 8px;
+}
+
+.sidebar a {
+  display: block;
+  color: #377ff0;
+  padding: 16px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.bold {
+  font-weight: 600;
+}
+
+ion-icon {
+  width: 24px;
+  height: 24px;
+}
+div.content {
+  margin-left: 480px;
+  position: relative;
+  width: 822px;
+  height: 559px;
+  top: 30px;
+  left: 144px;
+  /* White */
+
+  background: #ffffff;
+  /* sha2 */
+
+  box-shadow: 0px 4px 18px rgba(55, 127, 240, 0.12);
+  border-radius: 8px;
+}
+.dropdown-container {
+  display: none;
+  background-color: #ffffff;
+  padding-left: 8px;
+}
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #377ff0;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+.eye {
+  position: absolute;
+  left: 370px;
+  margin-top: 26px;
+  width: 24px;
+  color: #9ba3ae;
+  height: 24px;
+}
+span {
+  margin: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #9ba3ae;
+}
+input {
+  margin: 16px;
+  position: relative;
+  width: 390px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+}
+.submit{
+  color: #f2f2f2;
+  background: #377FF0;
+border-radius: 4px;
+  width: 141px;
+height: 48px;
+  margin: 16px;
+  border: none;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+  /**/
+  .bg-theme{
+    background-color: #193257;
+    height: 47px;
+  }
+  .solid{
+  width: 100%;
+  height: 0px;
+  border: 1px solid #9BA3AE;
+  }
+  .theme{
+    background-color: #051935;
+  }
+  .ms-10{
+    margin-left: 170px;
+  }
+  .ms-11{
+    margin-left: 470px;
+  }
+  .ms-6{
+    padding-left: 260px;
+  }
+  .banner{
+  width: 100%;
+  }
+  /**/
+  .mt{
+    margin-top: 70px;
+  }
+  .ml{
+    margin-left: 124px;
+  }
+  .mb{
+    margin-bottom: 50px;
+  }
